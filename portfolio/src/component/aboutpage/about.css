@@ -1,0 +1,49 @@
+.about_page{
+    background-color: black;
+    padding-top: 8rem;
+    margin:  0 auto;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ 
+
+}
+.about h2{
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: white;
+    padding-bottom: 2.5rem;
+}
+.about h2 > span{
+    color: orange;
+}
+ .about .intro_head{
+    text-transform: capitalize;
+    letter-spacing: 0.2em;
+    margin-top: 1rem;
+    color:  rgb(20, 156, 190);
+}
+.about .intro_head h3{
+  font-size: 2rem;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+.about .intro_myself {
+    text-transform: capitalize;
+    color: white;
+    letter-spacing: 0.1em;
+    text-align: center;
+    max-width: 900px;
+    width: 100%;
+    margin-top: 1rem;
+    border: 3px solid #00bbf0;
+    border-radius: 20%;
+    padding: 2.6rem;
+    box-shadow: rgba(215, 197, 197, 0.25) 0px 54px 55px, rgba(84, 155, 193, 0.12) 0px -12px 30px, rgba(79, 81, 163, 0.12) 0px 4px 6px, rgba(153, 158, 119, 0.17) 0px 12px 13px, rgba(222, 208, 208, 0.09) 0px -3px 5px;
+    margin-bottom: 3rem;
+    text-align: center;
+
+}

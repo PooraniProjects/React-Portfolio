@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+ a{
+    text-decoration: none !important;
+    color: white;
+   
+} 
+.projects{
+    margin: 0 auto;
+    padding-bottom: 2rem;
+    transition: transform 100ms ease-in;
+    display: flex;
+    width: 420px;
+    height: 210px;
+  
+}
+.projects:hover{
+    color: black;
+    background-color: orange;
+    transform: scale(1.05);
+    cursor: pointer;
+  
+}
+.projects > img{
+    width: 400px;
+    height: 200px;
+}
+.projec_conte{
+    padding: 10px;
+}
+.projec_conte > h3{
+    font-weight: bold;
+    text-shadow: 2px 2px white;
+
+}
+.projec_conte > p{
+    font-size: 15px;
+}
+.projects> h2{
+    font-size: 1.4rem;
+    text-shadow: 2px 2px red;
+    text-transform: uppercase;
+    border: 3px solid orange;
+    box-shadow: 2px 2px wh;
+    width: 350px;
+    height: 179px;
+   box-shadow: rgba(236, 9, 9, 0.25) 0px 54px 55px, rgba(133, 191, 222, 0.12) 0px -12px 30px, rgba(17, 19, 180, 0.12) 0px 4px 6px, rgba(15, 161, 214, 0.17) 0px 12px 13px, rgba(222, 208, 208, 0.09) 0px -3px 5px;
+   padding-top: 4rem;
+   text-align: center;
+   
+    
+}

@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+.skills{
+    background-color: black;
+    padding-top: 8rem;
+}
+.skills h2{
+    font-size: 2rem;
+    color: orange;
+    text-transform: uppercase;
+    text-align: center;
+}
+.skill_content{
+    padding-top: 3rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0 auto;  
+    gap: 3rem;
+
+
+}
+ 
+ .left_img{
+    
+    flex:0.4;
+    text-align: center;
+    margin-right: 78px;
+} 
+
+.left_img > img{
+    width: 100%;
+    border-radius: 3px;
+    
+} 
+ .right_content{
+    flex: 0.6;
+    text-align: left;
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+ 
+.skill_continer{
+    padding-bottom: .7rem;
+}
+ .skill_continer > h4 {
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: 'Alata',sans-serif;
+    font-weight: 300;
+    padding-bottom: .7rem;
+    padding-top: 5px;
+} 
+ .skill_slide > .css-eglki6-MuiLinearProgress-root {
+    background-color: gray;
+    
+}
+.skill_color1 > span > .css-5xe99f-MuiLinearProgress-bar1{
+    background-color: red;
+}
+.skill_color2 > span > .css-5xe99f-MuiLinearProgress-bar1{
+    background-color: rgb(55, 187, 38);
+}
+.skill_color3 > span > .css-5xe99f-MuiLinearProgress-bar1{
+    background-color: rgb(218, 18, 168);
+}
+.skill_color4 > span > .css-5xe99f-MuiLinearProgress-bar1{
+    background-color: rgb(216, 106, 15);
+}
+.skill_color5 > span > .css-5xe99f-MuiLinearProgress-bar1{
+    background-color: rgb(12, 159, 185);
+}
+.skill_color6 > span > .css-5xe99f-MuiLinearProgress-bar1{
+    background-color: rgb(47, 45, 158);
+}  

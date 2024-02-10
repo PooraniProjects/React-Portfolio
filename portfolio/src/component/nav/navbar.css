@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+
+
+.navbar_heder{   
+    background-color: black;
+    color: white;
+    z-index: 1000;
+    padding: 1rem 2rem;
+    font-size: .7rem;
+}
+.navbar_left h1{
+    font-style: italic;
+}
+.navbar_left span{
+    color: orange;
+}
+.navbar-light .navbar-nav .nav-link {
+    font-size: .5rem;
+    color: white;
+    text-transform: uppercase;
+}
+.navbar-light .navbar-nav .nav-link h4{
+    font-size: 1.4rem;   
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color:orange;
+     font-weight: bold;
+}
+.navbar-toggler-icon{
+    background-color: white;
+   
+}
+.nav_btn {
+    font-weight: 500;
+    padding: 12px 20px;
+    background: orange;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: .4s;
+    text-decoration: none;
+    color: rgb(14, 13, 13);
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.nav_btn >i{
+    color: black !important;
+}
+.nav_btn:hover{
+    background: white;
+    color: black;
+}
+.btn_contact{
+    padding: .5rem 1rem;
+    background-color: red;
+    color: white;
+    font-size: 1.1rem;
+    display: block;
+
+}

@@ -1,0 +1,30 @@
+.education_page{
+    background-color: black;
+    margin: 0 auto;
+    padding-top: 8rem;
+}
+.education_page h2{
+   text-transform: uppercase;
+   color: orange;
+   text-align: center;
+   font-size: 2rem;
+   padding-bottom: 2rem;
+}
+.education_list{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    padding: 2rem;
+    color: white;
+    text-align: center;
+}
+.education_list .education{
+    border: 2px solid #00bbf0;
+    padding: 2.5rem;
+    box-shadow: rgba(215, 197, 197, 0.25) 0px 54px 55px, rgba(84, 155, 193, 0.12) 0px -12px 30px, rgba(79, 81, 163, 0.12) 0px 4px 6px, rgba(153, 158, 119, 0.17) 0px 12px 13px, rgba(222, 208, 208, 0.09) 0px -3px 5px;
+    width: 380px;
+    height: 150px;
+    text-align: center;
+}
